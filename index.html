@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather Search by Location</title>
+		<!-- css -->
+		<link rel="stylesheet" href="./assets/style/style.css" />
+	</head>
+	<body>
+		<div class="container-fluid">
+			<section class="main"></section>
+		</div>
+		<section class="input">
+			<input type="text" placeholder="Enter any city..." id="cityinput" />
+			<input type="submit" value="Submit" id="add" />
+            <!-- <button placeholder="submit" id="add"></button> -->
+		</section>
+		<main id="main"></main>
+		<section class="display hidden">
+			<div class="wrapper">
+				<h2 id="cityoutput"></h2>
+				<p id="description"></p>
+				<p id="temp"></p>
+				<p id="wind"></p>
+			</div>
+		</section>
+		<script src="./assets/script/script.js"></script>
+	</body>
+</html>
